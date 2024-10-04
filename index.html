@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Patkar Prathamesh's GitHub Profile">
+    <meta name="description" content="Prathamesh Patkar's GitHub Profile">
     <meta name="author" content="Prathamesh Patkar">
-    <title>Prathamesh Patkar - GitHub Profile</title>
+    <title>Prathamesh Patkar - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,7 +27,30 @@
             padding: 2rem;
             text-align: center;
         }
-        .github-profile-link {
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 2rem;
+        }
+        .section-header {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #28a745;
+        }
+        p {
+            text-align: justify;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #e2e2e2;
+            margin: 0.5rem 0;
+            padding: 0.8rem;
+            border-radius: 5px;
+        }
+        .profile-link {
             background-color: #28a745;
             color: white;
             padding: 0.8rem 1.2rem;
@@ -46,27 +69,71 @@
             bottom: 0;
             width: 100%;
         }
-        .container {
-            max-width: 960px;
-            margin: auto;
-            padding: 2rem;
-        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Prathamesh Patkar's GitHub Profile</h1>
+        <h1>Prathamesh Patkar's Portfolio</h1>
     </header>
 
     <section>
         <div class="container">
-            <h2>Hello, I'm Prathamesh Patkar</h2>
+            <h2 class="section-header">Introduction</h2>
             <p>
-                Welcome to my GitHub profile page! I am a passionate software engineer with experience in cloud infrastructure, Kubernetes, and distributed systems. 
-                Check out my projects and repositories below.
+                Hello, I am Prathamesh Patkar, a Senior Software Engineer with over 9+ years of experience in architecting resilient infrastructure for enterprise-scale operations.
+                I am passionate about pioneering new technologies and solutions, and I have worked across various teams and projects, both independently and collaboratively.
             </p>
-            <a href="https://github.com/patkarp" class="github-profile-link" target="_blank">Visit My GitHub Profile</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-header">Experience</h2>
+            <ul>
+                <li><strong>Senior Site Reliability Engineer</strong> - Cirium Inc – RELX Analytic Group, Portland, Oregon (June 2019 - Present)</li>
+                <li><strong>Site Reliability Engineer</strong> - Symantec Corp, Eugene, Oregon (April 2018 - April 2019)</li>
+                <li><strong>Software Engineer</strong> - IT Infrastructure OSU, Corvallis, Oregon (June 2015 - December 2016)</li>
+            </ul>
+            <p>
+                I have extensive experience managing Kubernetes clusters, automating CI/CD pipelines, and implementing scalable cloud architectures using AWS. I also specialize in 
+                security measures, Datadog adoption, and orchestrating blue/green deployments to ensure high uptime and secure environments.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-header">Education</h2>
+            <ul>
+                <li><strong>Master of Science</strong> in Computer Science - Oregon State University (2016)</li>
+                <li><strong>Bachelor of Science</strong> in Computer Science - Oregon State University (2014)</li>
+            </ul>
+            <p>
+                My academic background provided a solid foundation in computer science, which I have applied in my work on distributed systems, cloud platforms, and 
+                scalable infrastructure solutions.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-header">Skills</h2>
+            <ul>
+                <li>Languages: Java, Python, NodeJS, SQL, Terraform, Groovy</li>
+                <li>Cloud & Virtualization: AWS, Azure, GCP, Kubernetes, Docker</li>
+                <li>CI/CD Tools: Jenkins, Helm, Kustomize, GitLab</li>
+                <li>Monitoring: Datadog, Prometheus, Grafana</li>
+                <li>Database Systems: MySQL, MongoDB, Redshift</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <a href="https://github.com/patkarp" class="profile-link" target="_blank">Visit My GitHub Profile</a>
+            <br><br>
+            <a href="https://www.linkedin.com/in/prathameshpatkar/" class="profile-link" target="_blank">Visit My LinkedIn Profile</a>
         </div>
     </section>
 
